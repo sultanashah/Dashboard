@@ -3,7 +3,8 @@ import React from "react";
 function MainDash() {
   return (
     <>
-      <div>MainDash</div>
+      <div className="m-2 flex-col">MainDash
+      </div>
     </>
   );
 }

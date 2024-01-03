@@ -1,19 +1,17 @@
 import React from "react";
 import "./App.css";
 import Sidebar from "./components/Sidebar";
-import MainDash from "./components/Sidebar";
-import RightSide from "./components/Sidebar";
+// import MainDash from "./components/Sidebar";
+// import RightSide from "./components/Sidebar";
 
 function App() {
   return (
     <>
-      <div className="App h-[100vh]">
-        Heloo
-        <div className="AppGlass">
-          hello world
+      <div className="App h-[100vh] p-4">
+        <div className="AppGlass p-4">
           <Sidebar />
-          <MainDash />
-          <RightSide />
+          {/* <MainDash />
+          <RightSide /> */}
         </div>
       </div>
     </>

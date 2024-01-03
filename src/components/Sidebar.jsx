@@ -1,10 +1,36 @@
 import React from "react";
+import Logo from "../images/logo.png";
+import Logo1 from "../images/home.png";
 
 function Sidebar() {
-  return( 
+  return (
     <>
-  <div>Sidebar</div>
-  </>
+
+      <div className="flex gap-4 text-black">
+        <img className="flex  w-8 h-8" src={Logo} alt="" />
+        <span>
+          Sh<span>o</span>ps
+        </span>
+        </div>
+        <div className=" flex flex-col">
+          <span className="flex items-center gap-2">
+            <img className="flex  w-8 h-8" src={Logo1} alt="" />
+            <h2 className="mt-6 text-lg">Dashboard</h2>
+          </span>
+          <span className="flex items-center gap-2">
+            <img className="flex w-8 h-8" src={Logo1} alt="" />
+            <h2 className="mt-6 text-lg">Order</h2>
+          </span>
+          <span className="flex items-center gap-2">
+            <img className="flex w-8 h-8" src={Logo1} alt="" />
+            <h2 className="mt-6 text-lg">Customer</h2>
+          </span>
+          <span className="flex items-center gap-2">
+            <img className="flex w-8 h-8" src={Logo1} alt="" />
+            <h2 className="mt-6 text-lg">Analysis</h2>
+          </span>
+        </div>
+    </>
   );
 }
 

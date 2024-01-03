@@ -1,17 +1,15 @@
-import React from 'react'
+import React from "react";
+// import AppGlass from "../App";
 
 function RightSide() {
   return (
-    <div>RightSide</div>
-  )
+    <>
+      <div className="text-white">RightSide</div>
+    </>
+  );
 }
 
-export default RightSide
-
-
-
-
-
+export default RightSide;
 
 // import React from "react";
 // import CustomerReview from "../CustomerReview/CustomerReview";
